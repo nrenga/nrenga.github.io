@@ -1,66 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Narayanan Rengaswamy</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Jul 2016 23:06:40 -0700</pubDate>
-    <lastBuildDate>Wed, 06 Jul 2016 23:06:40 -0700</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>{ John Smith }</title>
+		<description>Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine.</description>
+		<link>https://panossakkos.github.io</link>
+		<atom:link href="https://panossakkos.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Welcome to { Personal } Jekyll Theme!</title>
+				
+				
+					<description>&lt;p&gt;Click the view more posts link bellow, to see the currently available post-tutorials to help you get your { Personal } website up and running quicker!&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 06 Jul 2016 19:02:14 -0700</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2016/07/06/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/07/06/welcome-to-jekyll.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Second Page!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+				
+				<pubDate>Sat, 27 Jun 2015 00:00:00 -0700</pubDate>
+				<link>https://panossakkos.github.io/tech/2015/06/27/welcome.html</link>
+				<guid isPermaLink="true">https://panossakkos.github.io/tech/2015/06/27/welcome.html</guid>
+			</item>
+		
+			<item>
+				<title>Initial setup</title>
+				
+				
+					<description>&lt;p&gt;All features of { Personal } are controlled by setting values to variables that are defined in the
+_config.yml file. Let’s start with the initial variables that you have to set before
+serving your { Personal } website for the first time.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{x^2}{\sqrt{y+1}}&lt;/script&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Rengaswamy2015&quot;&gt;[1]N. Rengaswamy, “On Cyclic Polar Codes and the Burst Erasure Performance of Spatially-Coupled LDPC Codes,” Master&#39;s thesis, Texas A&amp;amp;M University, 2015. &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;VahidArXiv16&quot;&gt;[2]V. Aref, N. Rengaswamy, and L. Schmalen, “Spatially Coupled LDPC Codes Affected by a Single Random Burst of Erasures.” 2016. &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
-
-&lt;p&gt;Thank you.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 06 Jul 2016 19:02:14 -0700</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2016/07/06/second-page.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/07/06/second-page.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-  </channel>
+				
+				<pubDate>Thu, 25 Jun 2015 00:00:00 -0700</pubDate>
+				<link>https://panossakkos.github.io/tech/2015/06/25/initial-setup.html</link>
+				<guid isPermaLink="true">https://panossakkos.github.io/tech/2015/06/25/initial-setup.html</guid>
+			</item>
+		
+			<item>
+				<title>Modifying the Header</title>
+				
+				
+					<description>&lt;p&gt;The intro part of the index page (Header) is consisted of four elements:&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 24 Jun 2015 00:00:00 -0700</pubDate>
+				<link>https://panossakkos.github.io/tech/2015/06/24/intro-layout-tutorial.html</link>
+				<guid isPermaLink="true">https://panossakkos.github.io/tech/2015/06/24/intro-layout-tutorial.html</guid>
+			</item>
+		
+			<item>
+				<title>Web app mode</title>
+				
+				
+					<description>&lt;p&gt;You can make your website behave like a native web app in iOS and Android devices
+by providing links for the icons for each resolution:&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 22 Jun 2015 00:00:00 -0700</pubDate>
+				<link>https://panossakkos.github.io/tech/2015/06/22/web-app-mode.html</link>
+				<guid isPermaLink="true">https://panossakkos.github.io/tech/2015/06/22/web-app-mode.html</guid>
+			</item>
+		
+			<item>
+				<title>Setting up the Blog</title>
+				
+				
+					<description>&lt;p&gt;A website is truly personal if it hosts your blog as well, this place of the internet
+where you can place your thoughts about anything!&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 20 Jun 2015 00:00:00 -0700</pubDate>
+				<link>https://panossakkos.github.io/tech/2015/06/20/blog-tutorial.html</link>
+				<guid isPermaLink="true">https://panossakkos.github.io/tech/2015/06/20/blog-tutorial.html</guid>
+			</item>
+		
+			<item>
+				<title>Writing posts</title>
+				
+				
+					<description>&lt;h3 id=&quot;creating-a-new-post&quot;&gt;Creating a new post&lt;/h3&gt;
+
+</description>
+				
+				<pubDate>Fri, 19 Jun 2015 00:00:00 -0700</pubDate>
+				<link>https://panossakkos.github.io/tech/2015/06/19/writing-posts.html</link>
+				<guid isPermaLink="true">https://panossakkos.github.io/tech/2015/06/19/writing-posts.html</guid>
+			</item>
+		
+			<item>
+				<title>Adding a life event in the Timeline</title>
+				
+				
+					<description>&lt;p&gt;One of the coolest features of { Personal } is that enables you to tell your life’s story in
+the form of a timeline of photos, dates and text descriptions.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Fri, 12 Jun 2015 00:00:00 -0700</pubDate>
+				<link>https://panossakkos.github.io/tech/2015/06/12/timeline-tutorial.html</link>
+				<guid isPermaLink="true">https://panossakkos.github.io/tech/2015/06/12/timeline-tutorial.html</guid>
+			</item>
+		
+			<item>
+				<title>Modifying the social buttons</title>
+				
+				
+					<description>&lt;p&gt;Social buttons (rendered above the footer) are great for having a small hub with all your social footprint.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 11 Jun 2015 00:00:00 -0700</pubDate>
+				<link>https://panossakkos.github.io/tech/2015/06/11/social-buttons-tutorial.html</link>
+				<guid isPermaLink="true">https://panossakkos.github.io/tech/2015/06/11/social-buttons-tutorial.html</guid>
+			</item>
+		
+			<item>
+				<title>Modifying the Contact</title>
+				
+				
+					<description>&lt;p&gt;The contact part of the index page is consisted of two elements:&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 10 Jun 2015 00:00:00 -0700</pubDate>
+				<link>https://panossakkos.github.io/tech/2015/06/10/contact-tutorial.html</link>
+				<guid isPermaLink="true">https://panossakkos.github.io/tech/2015/06/10/contact-tutorial.html</guid>
+			</item>
+		
+	</channel>
 </rss>
