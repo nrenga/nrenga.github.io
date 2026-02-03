@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>Narayanan Rengaswamy</title>
-		<description>Website of Narayanan Rengaswamy for both technical content and blogs.</description>
+		<description>Website of Narayanan Rengaswamy</description>
 		<link>https://nrenga.github.io</link>
 		<atom:link href="https://nrenga.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
